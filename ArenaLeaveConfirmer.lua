@@ -1,3 +1,6 @@
-StaticPopup1:HookScript("OnShow", function(self, ...)
-                if IsActiveBattlefieldArena() then StaticPopup1Button1:Click() end
-end)
+local origConfirmOrLeaveBattlefield = ConfirmOrLeaveBattlefield;
+ConfirmOrLeaveBattlefield = function()
+	if IsActiveBattlefieldArena() then
+		LeaveBattlefield();
+	end
+end
