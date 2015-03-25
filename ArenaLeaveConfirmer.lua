@@ -1,8 +1,8 @@
-local origConfirmOrLeaveBattlefield = ConfirmOrLeaveBattlefield;
+--local origConfirmOrLeaveBattlefield = ConfirmOrLeaveBattlefield;
 ConfirmOrLeaveBattlefield = function()
-	if IsActiveBattlefieldArena() then
+	if select(1, IsActiveBattlefieldArena()) then
 		LeaveBattlefield();
 	else
-		origConfirmOrLeaveBattlefield();
+		StaticPopup_Show("CONFIRM_LEAVE_BATTLEFIELD"); --origConfirmOrLeaveBattlefield();
 	end
 end
