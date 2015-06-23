@@ -1,3 +1,5 @@
-## Interface: 60100
+## Interface: 60200
 ## Title: ArenaLeaveConfirmer
+## Notes: skips arena leave confirmation dialog
+## Author: Alex Folland
 ArenaLeaveConfirmer.lua
