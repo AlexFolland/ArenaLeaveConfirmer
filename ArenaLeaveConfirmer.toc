@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: ArenaLeaveConfirmer
 ## Notes: skips arena leave confirmation dialog
 ## Author: Alex Folland
