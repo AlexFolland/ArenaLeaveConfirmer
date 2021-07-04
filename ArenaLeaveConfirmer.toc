@@ -1,5 +1,11 @@
-## Interface: 80000
+## Interface: 90100
+## Interface-Retail: 90100
+## Interface-Classic: 11307
+## Interface-BCC: 20501
 ## Title: ArenaLeaveConfirmer
 ## Notes: skips arena leave confirmation dialog
 ## Author: Alex Folland
+
 ArenaLeaveConfirmer.lua
+
+## X-Curse-Project-ID: 49965

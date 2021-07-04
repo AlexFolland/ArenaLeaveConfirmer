@@ -1,0 +1,6 @@
+## Interface: 20501
+## Title: ArenaLeaveConfirmer
+## Notes: skips arena leave confirmation dialog
+## Author: Alex Folland
+
+ArenaLeaveConfirmer.lua
